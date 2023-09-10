@@ -1,0 +1,51 @@
+/* Dark mode colors. */
+/* Accent:  #455DC8*/
+/* Gray: #386F93 */
+/* logo - light: #002A42 */
+h1,
+h2,
+h3,
+h4,
+h5 {
+  /* https://fontsource.org/fonts/open-sans */
+  font-family: "Open Sans Variable", sans-serif;
+  /* font-family: "Quicksand Variable", sans-serif; */
+}
+
+:root {
+  /* --sl-font: "PT Sans", sans-serif; */
+  --sl-font: "Source Sans Pro", sans-serif;
+}
+
+:root[data-theme="dark"] {
+  --sl-color-accent-low: #19223f;
+  --sl-color-accent: #455eca;
+  --sl-color-accent-high: #bac8ee;
+  --sl-color-white: #ffffff;
+  --sl-color-gray-1: #def1ff;
+  --sl-color-gray-2: #abc6da;
+  --sl-color-gray-3: #5b92b8;
+  --sl-color-gray-4: #265e81;
+  --sl-color-gray-5: #003c5c;
+  --sl-color-gray-6: #002a42;
+  --sl-color-black: #041a29;
+}
+/* Light mode colors. */
+:root[data-theme="light"] {
+  --sl-color-accent-low: #ccd6f4;
+  --sl-color-accent: #4760cc;
+  --sl-color-accent-high: #222e5d;
+  --sl-color-white: #041a29;
+  --sl-color-gray-1: #002a42;
+  --sl-color-gray-2: #003c5c;
+  --sl-color-gray-3: #265e81;
+  --sl-color-gray-4: #5b92b8;
+  --sl-color-gray-5: #abc6da;
+  --sl-color-gray-6: #def1ff;
+  --sl-color-gray-7: #eef8ff;
+  --sl-color-black: #ffffff;
+}
+
+/* <select value="auto" class="astro-4YPHTOEN">
+		<option value="dark" selected="true" class="astro-4YPHTOEN">Dark</option><option value="light" class="astro-4YPHTOEN">Light</option><option value="auto" class="astro-4YPHTOEN">Auto</option>
+	</select> */

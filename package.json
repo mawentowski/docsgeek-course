@@ -1,0 +1,21 @@
+{
+  "name": "red-rotation",
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@astrojs/starlight": "file:../docsgeek-theme/packages/starlight",
+    "@fontsource-variable/open-sans": "^5.0.9",
+    "@fontsource-variable/quicksand": "^5.0.8",
+    "@fontsource/pt-sans": "^5.0.8",
+    "@fontsource/source-sans-pro": "^5.0.8",
+    "astro": "^3.0.12",
+    "sharp": "^0.32.3"
+  }
+}
