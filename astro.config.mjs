@@ -3,9 +3,15 @@ import starlight from "@astrojs/starlight";
 
 // https://astro.build/config
 export default defineConfig({
+  site: "https://docsgeek.io/course/",
+  base: "/course",
+  build: {
+    format: "file",
+  },
   integrations: [
     starlight({
-      title: "My Docs",
+      title: "Full-stack tech writing course",
+
       social: {
         github: "https://github.com/withastro/starlight",
       },
@@ -19,8 +25,15 @@ export default defineConfig({
         },
         {
           label: "Reference",
-          autogenerate: { directory: "reference" },
+          items: [
+            // Each item here is one entry in the navigation menu.
+            { label: "Example Reference", link: "/reference/example/" },
+          ],
         },
+        // {
+        //   label: "Reference",
+        //   autogenerate: { directory: "reference" },
+        // },
       ],
       customCss: [
         // Relative path to your custom CSS file

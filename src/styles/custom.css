@@ -21,6 +21,24 @@ header * {
   font-family: "Source Sans 3", sans-serif;
 }
 
+/* :root[data-theme="light"] h1,
+h2,
+h3,
+h4,
+h5,
+p,
+ul li a,
+ul li,
+div.pagination-links *,
+summary#starlight__on-this-page--mobile *,
+header * {
+  color: #003c5a !important;
+} */
+
+/* a.sl-flex.action.primary {
+  color: white;
+} */
+
 :root {
   /* --sl-font: "PT Sans", sans-serif; */
   /* --sl-font: "Source Sans Pro", sans-serif; */
