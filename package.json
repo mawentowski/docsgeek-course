@@ -6,7 +6,7 @@
     "dev": "astro dev",
     "start": "astro dev",
     "build": "astro build",
-    "test": "node addHTMLExtToDistRegex.cjs && node server.cjs",
+    "test": "npm run build && node addHTMLExtToDistRegex.cjs && node server.cjs",
     "replace": "node addHTMLExtToDistRegex.cjs",
     "preview": "astro preview",
     "astro": "astro"
