@@ -49,3 +49,54 @@ All commands are run from the root of the project, from a terminal:
 ## 👀 Want to learn more?
 
 Check out [Starlight’s docs](https://starlight.astro.build/), read [the Astro documentation](https://docs.astro.build), or jump into the [Astro Discord server](https://astro.build/chat).
+
+<!--
+Dark Dark blue (background, logo background)
+#031A29
+
+Light dark blue (header)
+#002A42
+
+Primary (link, card background)
+#BBC8EE
+
+White
+#FBFDFB
+
+Compliment:
+https://mycolor.space/?hex=%23BBC8EE&sub=1
+
+Green:
+#64F9D7
+#00C6BD
+
+Bright green:
+#A8FEA0
+
+Yellow:
+#F9F871
+
+Pink:
+#EEB9C1
+#EEB9C1
+
+Rose:
+#CF7A89
+
+Fonts
+
+```css
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Source+Sans+3&display=swap");
+
+#hero h1,
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+ul#menu-items li a,
+ul li {
+  font-family: "Source Sans 3", sans-serif;
+}
+``` -->

@@ -1,20 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Source+Sans+3&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap");
+
 /* Dark mode colors. */
 /* Accent:  #455DC8*/
 /* Gray: #386F93 */
 /* logo - light: #002A42 */
+
 h1,
 h2,
 h3,
 h4,
-h5 {
-  /* https://fontsource.org/fonts/open-sans */
-  font-family: "Open Sans Variable", sans-serif;
-  /* font-family: "Quicksand Variable", sans-serif; */
+h5,
+p,
+ul li a,
+ul li,
+div.sl-flex.stack *,
+div.pagination-links *,
+summary#starlight__on-this-page--mobile *,
+header * {
+  font-family: "Source Sans 3", sans-serif;
 }
 
 :root {
   /* --sl-font: "PT Sans", sans-serif; */
-  --sl-font: "Source Sans Pro", sans-serif;
+  /* --sl-font: "Source Sans Pro", sans-serif; */
+  font-family: "Source Sans 3", sans-serif;
 }
 
 :root[data-theme="dark"] {
@@ -30,6 +40,7 @@ h5 {
   --sl-color-gray-6: #002a42;
   --sl-color-black: #041a29;
 }
+
 /* Light mode colors. */
 :root[data-theme="light"] {
   --sl-color-accent-low: #ccd6f4;
@@ -43,7 +54,32 @@ h5 {
   --sl-color-gray-5: #abc6da;
   --sl-color-gray-6: #def1ff;
   --sl-color-gray-7: #eef8ff;
-  --sl-color-black: #ffffff;
+  --sl-color-black: #fbfefb;
+}
+
+:root[data-theme="light"] img.geek_light {
+  display: block;
+}
+
+:root[data-theme="light"] img.geek_dark {
+  display: none;
+}
+
+:root[data-theme="dark"] img.geek_light {
+  display: none;
+}
+
+:root[data-theme="dark"] img.geek_dark {
+  display: block;
+}
+
+/* pre * {
+  font-family: "IBM Plex Mono", monospace !important;
+} */
+
+pre {
+  /* background-color: #002a42 !important; */
+  border-radius: 8px;
 }
 
 /* <select value="auto" class="astro-4YPHTOEN">
