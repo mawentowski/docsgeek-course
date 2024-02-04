@@ -16,24 +16,27 @@ export default defineConfig({
         github: "https://github.com/withastro/starlight",
       },
       sidebar: [
+        { label: "API Introduction", link: "/api-introduction" },
         {
-          label: "Guides",
+          label: "About the REST API",
           items: [
-            // Each item here is one entry in the navigation menu.
-            { label: "Example Guide", link: "/guides/example/" },
+            { label: "Overview", link: "/about" },
+            {
+              label: "About requests",
+              items: [
+                { label: "Overview", link: "/about/about-requests" },
+                {
+                  label: "HTTP Method",
+                  link: "/about/about-requests/http-method",
+                },
+                {
+                  label: "Base URL",
+                  link: "/about/about-requests/base-url",
+                },
+              ],
+            },
           ],
         },
-        {
-          label: "Reference",
-          items: [
-            // Each item here is one entry in the navigation menu.
-            { label: "Example Reference", link: "/reference/example/" },
-          ],
-        },
-        // {
-        //   label: "Reference",
-        //   autogenerate: { directory: "reference" },
-        // },
       ],
       customCss: [
         // Relative path to your custom CSS file
