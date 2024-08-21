@@ -1,0 +1,17 @@
+---
+title: Media types
+---
+
+Media Types
+
+In the context of APIs, media types refer to identifiers that specify the format or type of data exchanged between clients and servers. In HTTP, the Content-Type header indicates the resource's media type in the message body.
+
+The documentation for each REST API endpoint describes the media types it supports. For more information, see the OpenAPI description.
+
+The most common media types supported by the REST API are application/json and multipart/form-data. Let’s take a look at each:
+
+application/json - When sending JSON data to the API, set Content-Type: application/json in the request header and include the JSON data in the request body. For example, API requests sent to the Calculate Score endpoint include JSON data in the request body that the API uses to calculate and return a score.
+
+multipart/form-data- When submitting forms with binary data, such as file uploads, structure the request body with boundaries between different parts of the form data, specifying the content type for each part. For example, API requests sent to the Calculate Multipart Score endpoint include form-data in the request body, with a form field named data and the file the form field carries. CSV (.csv) or Excel (.xlsx) are supported file types, except the fillMissing field requires a CSV file.
+
+For an example of a request that uses media types, see How To Make Requests.

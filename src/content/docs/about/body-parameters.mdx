@@ -1,0 +1,11 @@
+---
+title: Body parameters
+---
+
+Body Parameters
+
+For REST APIs, the "request body" is the part of an HTTP request that allows you to pass additional data to the API. It's the payload of the HTTP request, and in the case of the Steritas API, it can contain various types of data, including JSON and form-data. The request body is used in HTTP methods like POST.
+
+When sending requests to endpoints used to calculate scores, you include data in the request body, and the API uses that data to calculate and return a score.
+
+The format of the data accepted by each endpoint, also known as the "Media type" (also known as MIME type), differs from these two endpoints. Calculate Score accepts data formatted as application/json, while Calculate Multipart Score accepts multipart/form-data. For more information, see Media Types.

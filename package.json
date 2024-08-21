@@ -3,6 +3,7 @@
   "type": "module",
   "version": "0.0.1",
   "scripts": {
+    "prestart": "npm install -g npm@10.7.0",
     "dev": "astro dev",
     "start": "astro dev",
     "build": "astro build",

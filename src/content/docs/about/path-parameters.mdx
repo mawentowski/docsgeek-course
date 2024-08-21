@@ -1,0 +1,11 @@
+---
+title: Path parameters
+---
+
+Path Parameters
+
+Path parameters modify the endpoint path. The curly brackets {} in a path denote the parameters you need to specify.
+
+For example, the path to the Download Score endpoints looks like the following: /api/v1/gti/downloadScore/{format}/{score_id}. Inside the path are two path parameters, {format} and {score_id}. To use this path in your API request, you would replace {format} with the response data format (ex. xlsx) and replace {score_id} with the value of the resultsetId.
+
+The resultsetId is returned after sending a Calculate Score and Calculate Multipart Score request and identifies the score results.
